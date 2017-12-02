@@ -26,9 +26,9 @@ body {
 }
 
 .title {
-    font-family: "dylovastuff";
-    font-size: 50px;
-    color: #3B444B;
+    font-family: "Anurati-Regular";
+    font-size: 60px;
+    color: #0868b1;
 }
 
 .page {
@@ -53,8 +53,18 @@ a {
 }
 
 @font-face {
-    font-family: "dylovastuff";
-    src: url("fonts/dylovastuff.dfont"), url("fonts/DYLOVASTUFF.ttf");
+    font-family: "Anurati-Regular";
+    src: url("fonts/Anurati-Regular.otf");
+}
+
+@font-face {
+    font-family: "Elianto-Regular";
+    src: url("fonts/Elianto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Finity";
+    src: url("fonts/Finity.ttf");
 }
 
 @font-face {
