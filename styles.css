@@ -12,12 +12,12 @@ body {
 
 .topnav a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
     float: center;
     color: #848482;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;  
 }
 
 .topnav a:hover {
@@ -33,6 +33,10 @@ body {
 .page {
     max-width: 800px;
     line-height: 170%;
+}
+
+a {
+    color: #6D351A;
 }
 
 @font-face {
