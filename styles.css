@@ -5,6 +5,10 @@ body {
     color: #3B444B;
 }
 
+a {
+    color: #6D351A;
+}
+
 .topnav {
     overflow: hidden;
     background-color: #3B444B;
@@ -12,7 +16,7 @@ body {
 }
 
 .topnav a {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 11px;
     float: center;
     color: #848482;
@@ -28,7 +32,7 @@ body {
 .title {
     font-family: "Anurati-Regular";
     font-size: 60px;
-    color: #0868b1;
+    color: #3B444B;
 }
 
 .page {
@@ -48,9 +52,12 @@ body {
     font-size: 10px;
 }
 
-a {
-    color: #6D351A;
+.amiri {
+    font-family: 'Amiri', serif;
 }
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/earlyaccess/amiri.css");
 
 @font-face {
     font-family: "Anurati-Regular";

@@ -1,0 +1,66 @@
+<projects>
+<h2>Agricultural Science</h2>
+    <ul>
+        <li>
+            <h3>
+            <a href="http://alstatr.blogspot.com/p/alues.html" target="_blank">ALUES (Agricultural Land Use Evaluation System)</a></h3>
+            <div style="text-align: justify;">
+                An R package used for evaluating land suitability for different crop production. The package is based on Food and Agriculture Organization (<a href="http://www.fao.org/home/en/" target="_blank">FAO</a>) and the International Rice Research Institute (<a href="http://irri.org/" target="_blank">IRRI</a>) methodology for land evaluation. Development of ALUES is inspired by similar tool for land evaluation, Land Use Suitability Evaluation Tool (LUSET). The package uses fuzzy logic approach to evaluate land suitability of a particular area based on inputs such as rainfall, temperature, topography, and soil properties. The membership functions used for fuzzy modeling are the following: Triangular, Trapezoidal and Gaussian. The methods for computing the overall suitability of a particular area are also included, and these are Minimum, Maximum, Product, Sum, and Average. Finally, ALUES uses the power of Rcpp library for efficient computation.
+            </div>
+            <br/>
+            <table>
+                <tbody>
+                <tr>
+                    <td width="70%">Authors:<br />
+                        <b>Al-Ahmadgaid B. Asaad</b> (maintainer)<br />
+                        <i>alstated@gmail.com</i>
+                        <br />
+                        <br />
+                        <b>Arnold R. Salvacion</b>
+                        <br />
+                        <i>arsalvacion@gmail.com</i>
+                        <br />
+                        <a href="http://r-nold.blogspot.com/" target="_blank">Data Analysis and Visualization using R</a> (blog)<br />
+                        <br />
+                        <br />
+                        <br /></td>
+                        <td>
+                        <span id="goog_935278279"></span><br />
+                        <a href="https://github.com/alstat/ALUES" imageanchor="1" target="_blank"><img border="0" height="200" src="https://3.bp.blogspot.com/-IpACuFgal4k/VKarr6VU3pI/AAAAAAAACLo/CxwSURg18KY/s1600/daftpunktocat-guy.gif" width="200" /></a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </li>
+    </ul>
+<h2>Bayesian Inference</h2>
+<ul>
+    <li>
+        <h3><a href="http://stochmcmcjl.readthedocs.io/en/latest/" target="_blank">StochMCMC.jl (Stochastic Gradient Markov Chain Monte Carlo)</a></h3>
+        <div style="text-align: justify;">
+            A julia package for Stochastic Gradient Markov Chain Monte Carlo. The package is part of my master’s thesis entitled <b>Bayesian Autoregressive Distributed Lag</b> <i>via</i> <b>Stochastic Gradient Hamiltonian Monte Carlo</b> or <b>BADL-SGHMC</b>, under the supervision of <b>Dr. Joselito C. Magadia</b> of <b>School of Statistics</b>, <b>University of the Philippines Diliman</b>. This work aims to accommodate other Stochastic Gradient MCMCs in the near future.
+        </div>
+        <br />
+        <table>
+            <tbody>
+                <tr>
+                <td width="70%">Author:<br />
+                    <b>Al-Ahmadgaid B. Asaad</b> (maintainer)<br />
+                    <i>alstated@gmail.com</i>
+                    <br />
+                    <br />
+                    <br />
+                </td>
+                <td>
+                    <br />
+                    <div class="separator" style="clear: both; text-align: center;">
+                        <a href="https://github.com/alstat/StochMCMC.jl" imageanchor="1" target="_blank"><img border="0" height="200" src="https://3.bp.blogspot.com/-IpACuFgal4k/VKarr6VU3pI/AAAAAAAACLo/CxwSURg18KY/s1600/daftpunktocat-guy.gif" width="200" /></a>
+                    </div>
+                </td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+    </li>
+</ul>
+</projects>
