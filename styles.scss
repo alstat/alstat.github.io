@@ -1,40 +1,44 @@
 $font-color : #d4af37;
 $load-font: 'Saira Condensed', sans-serif;
 $load-font-size: 20px;
-
+$card-bg-color: #3B444B;
+$icon-bg-color: #483C32;
+$bottom-bg-color: #01796F;
 @mixin positioning() {
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    margin: auto;
+    margin: auto auto;
 }
 
 body {
     background-color: $font-color;
     color: #cfcfcf;
     font-family: 'Roboto', sans-serif;
+    @include positioning();
     
     div#initialize {
+        text-align: center;
         div#initialize-poly {
             svg {
                 @include positioning();
                 // opacity: 0;
             }
         }
-        div#initialize-text {
-            input {
-                @include positioning();
-                opacity: 0;
-                text-align: center;
-                background-color: transparent;
-                color: $font-color;
-                border-width: 0;
+        div#initialize-text input {
+            @include positioning();
+            height: 30px;
+            width: 100px;
+            opacity: 0;
+            text-align: center;
+            background-color: transparent;
+            color: $font-color;
+            border-width: 0;
 
-                font-family: $load-font;
-                font-size: $load-font-size;
-            }
+            font-family: $load-font;
+            font-size: $load-font-size;
         }
     }
 }
@@ -50,26 +54,31 @@ div.card-container {
     border-radius: 20px;
     box-shadow: 0 0 100px 1px rgba(0, 0, 0, 0.5);
     
-    background-color: #3B444B;
+    background-color: $card-bg-color;
     text-align: center;
     div.name {
-        margin: 100px 0 10px 0;
+        margin: 90px 0 10px 0;
         text-align: center;
         font-size: 25px;
     }
     div.description {
+        margin: 0 0 60px 0;
         color: #d4af37;
         font-size: 12px;
         font-family: $load-font;
         text-align: center;
     }
     div#icon-container {
-        margin: 50px 0 0 0;
-        width: 500px;
+        background-color: $bottom-bg-color;
+        padding: 28px;
+        border-radius: 0 0 20px 20px;
         a.fa {
             padding: 10px;
             margin: 0 10px;
-            background-color: rgba(0, 0, 0, 0.5);
+            width: 16px;
+            // height: 30px;
+            background-color: $icon-bg-color;
+            border-radius: 50%;
             color: $font-color;
             text-decoration: none;
             transition: all .3s ease-in-out;
