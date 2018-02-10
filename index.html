@@ -1,36 +1,34 @@
-<!doctype html>
 <html>
     <head>
-        <title>Al-Ahmadgaid B. Asaad</title>
-        <link rel="stylesheet" href="styles.css"/>
-        <script type="text/javascript" src="/scripts/functions.js"></script>
+        <link rel="stylesheet" href="styles.css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+        <script src="animation.js"></script>
     </head>
     <body>
-        <div class="parentbox">
-            <center>
-                <div class="container-center">
-                    <div class="topnav">
-                        <img src="img/me.png">
-                        <div class="space">
-                        </div>
-                        <a href="/">H O M E</a>
-                        <a href="#">B L O G</a>
-                        <a href="#">P A P E R S</a>
-                        <a href="projects.html">P R O J E C T S</a>
-                        <a href="#">C O N T A C T</a>
-                    </div>    
-                    <div class="page">
-                        <br/>
-                        <br/>
-                        <h2 class="title" id="home-title">A L&nbsp;&nbsp;&nbsp;A S A A D</h2>
-                        <br/>
-                        <br/>
-                        <div align="justify">
-                            <span id="welcome"/>
-                        </div>
-                    </div>
-                </div>
-            </center>
+        <div id="initialize">
+            <div id="initialize-poly"> 
+                <svg width="128" height="128" viewBox="0 0 128 128">
+                    <polygon points="64 73.3997857687174 8.574 99.67925971908912 59.0460848264646 64.818996694275 64 3.6792597190891243 68.95391517353539 64.818996694275 119.426 99.67925971908912 " fill="currentColor"></polygon>
+                </svg>
+            </div>
+            <div id="initialize-text">
+                <input value="0%">
+            </div>
+        </div>
+        <div class="card-container" id="info-container">
+            <div class="name">
+                Al-Ahmadgaid B. Asaad
+            </div>
+            <div class="description">
+                web designer &amp; data scientist
+            </div>
+            <div id="icon-container">
+                <a href="mailto:alasaadstat@gmail.com" class="fa fa-google el" target="_blank"></a>
+                <a href="https://www.linkedin.com/in/al-ahmadgaid-asaad-68613a44/" class="fa fa-linkedin el" target="_blank"></a>
+                <a href="https://twitter.com/alasaadstat" class="fa fa-twitter el" target="_blank"></a>
+                <a href="https://github.com/alstat" class="fa fa-github el" target="_blank"></a>
+            </div>
         </div>
     </body>
 </html>

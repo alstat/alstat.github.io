@@ -1,0 +1,86 @@
+$font-color : #d4af37;
+$load-font: 'Saira Condensed', sans-serif;
+$load-font-size: 20px;
+
+@mixin positioning() {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+body {
+    background-color: $font-color;
+    color: #cfcfcf;
+    font-family: 'Roboto', sans-serif;
+    
+    div#initialize {
+        div#initialize-poly {
+            svg {
+                @include positioning();
+                // opacity: 0;
+            }
+        }
+        div#initialize-text {
+            input {
+                @include positioning();
+                opacity: 0;
+                text-align: center;
+                background-color: transparent;
+                color: $font-color;
+                border-width: 0;
+
+                font-family: $load-font;
+                font-size: $load-font-size;
+            }
+        }
+    }
+}
+
+div.card-container {
+    @include positioning();
+    opacity: 0;
+    
+    width: 485.41px;
+    height: 300px;
+    
+    border-width: 0;
+    border-radius: 20px;
+    box-shadow: 0 0 100px 1px rgba(0, 0, 0, 0.5);
+    
+    background-color: #3B444B;
+    text-align: center;
+    div.name {
+        margin: 100px 0 10px 0;
+        text-align: center;
+        font-size: 25px;
+    }
+    div.description {
+        color: #d4af37;
+        font-size: 12px;
+        font-family: $load-font;
+        text-align: center;
+    }
+    div#icon-container {
+        margin: 50px 0 0 0;
+        width: 500px;
+        a.fa {
+            padding: 10px;
+            margin: 0 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: $font-color;
+            text-decoration: none;
+            transition: all .3s ease-in-out;
+        }
+        a.fa:hover {
+            background-color: rgba(0, 0, 0, 1);
+            color: #ffffff;
+        }
+    }
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i");
+@import url('https://fonts.googleapis.com/css?family=Saira+Condensed:300');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css");
