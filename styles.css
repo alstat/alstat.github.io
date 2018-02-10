@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i");
+@import url("https://fonts.googleapis.com/css?family=Saira+Condensed:300");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css");
+body {
+  background-color: #d4af37;
+  color: #cfcfcf;
+  font-family: 'Roboto', sans-serif; }
+  body div#initialize div#initialize-poly svg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto; }
+  body div#initialize div#initialize-text input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    opacity: 0;
+    text-align: center;
+    background-color: transparent;
+    color: #d4af37;
+    border-width: 0;
+    font-family: "Saira Condensed", sans-serif;
+    font-size: 20px; }
+
+div.card-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  opacity: 0;
+  width: 485.41px;
+  height: 300px;
+  border-width: 0;
+  border-radius: 20px;
+  box-shadow: 0 0 100px 1px rgba(0, 0, 0, 0.5);
+  background-color: #3B444B;
+  text-align: center; }
+  div.card-container div.name {
+    margin: 100px 0 10px 0;
+    text-align: center;
+    font-size: 25px; }
+  div.card-container div.description {
+    color: #d4af37;
+    font-size: 12px;
+    font-family: "Saira Condensed", sans-serif;
+    text-align: center; }
+  div.card-container div#icon-container {
+    margin: 50px 0 0 0;
+    width: 500px; }
+    div.card-container div#icon-container a.fa {
+      padding: 10px;
+      margin: 0 10px;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #d4af37;
+      text-decoration: none;
+      transition: all .3s ease-in-out; }
+    div.card-container div#icon-container a.fa:hover {
+      background-color: black;
+      color: #ffffff; }
+
+/*# sourceMappingURL=styles.css.map */
