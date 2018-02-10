@@ -25,21 +25,26 @@ window.onload = function () {
     });
 
     // document.getElementById("initialize-text").style.display = "block";
+    var initTextValueOpacity = anime({
+        targets: "#initialize-text input",
+        opacity: 1,
+        delay: 8000,
+        duration: 1000
+    })
 
     var initTextValue = anime({
         targets: "#initialize-text input",
         value: "100%",
         round: 1,
         easing: "easeInOutExpo",
-        delay: 5000,
-        duration: 6000,
-        opacity: 1
+        delay: 7000,
+        duration: 6000
     })
 
     var initOpacity = anime({
         targets: "#initialize",
         opacity: 0,
-        delay: 10000,
+        delay: 13000,
         duration: 3000
     })
       
@@ -49,7 +54,7 @@ window.onload = function () {
             {value : 0},
             {value : 1}
         ],
-        delay: 3000,
+        delay: 6000,
         duration: 15000
     });
 }
