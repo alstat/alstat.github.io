@@ -1,3 +1,5 @@
+$body-font: 'Roboto', sans-serif;
+$desc-font-size: 12px;
 $font-color : #d4af37;
 $load-font: 'Saira Condensed', sans-serif;
 $load-font-size: 20px;
@@ -40,6 +42,48 @@ body {
             font-family: $load-font;
             font-size: $load-font-size;
         }
+    }
+
+    .tooltip {
+        position: relative;
+        display: inline-block;
+        // border-bottom: 1px dotted black;
+    }
+    
+    .tooltip .tooltiptext {
+        font-family: $body-font;
+        font-size: $desc-font-size;
+        visibility: hidden;
+        width: 100px;
+        background-color: #555;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px;
+        line-height: 135%;
+        position: absolute;
+        z-index: 1;
+        top: 125%;
+        left: 50%;
+        margin-left: -50px;
+        opacity: 0;
+        transition: opacity 1s;
+    }
+    
+    .tooltip .tooltiptext::after {
+        content: "";
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent transparent #555 transparent;
+    }
+    
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+        opacity: 1;
     }
 }
 
