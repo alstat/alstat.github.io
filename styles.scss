@@ -54,7 +54,7 @@ body {
         font-family: $body-font;
         font-size: $desc-font-size;
         visibility: hidden;
-        width: 100px;
+        width: 80px;
         background-color: #555;
         color: #fff;
         text-align: center;
@@ -65,7 +65,7 @@ body {
         z-index: 1;
         top: 125%;
         left: 50%;
-        margin-left: -50px;
+        margin-left: -40px;
         opacity: 0;
         transition: opacity 1s;
     }
