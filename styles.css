@@ -90,9 +90,9 @@ div.card-container {
     text-align: center;
     font-size: 25px; }
   div.card-container div.description {
-    margin: 0 0 60px 0;
+    margin: 0 0 58px 0;
     color: #d4af37;
-    font-size: 12px;
+    font-size: 14px;
     font-family: "Saira Condensed", sans-serif;
     text-align: center; }
   div.card-container div#icon-container {
